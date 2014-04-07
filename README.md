@@ -9,6 +9,9 @@ When you have vagrant installed and working do the following:
 * Wait a long time while everything gets installed.
 * When everything is finished you have a LEMP stack with WordPress 3.8.1 and Grunt/Gulp installed.
 
+## Login details
+MySql-user: root, MySql-password: vagrant
+
 ## Everything that gets installed
 
 * nginx
