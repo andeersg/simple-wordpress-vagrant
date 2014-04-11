@@ -2,6 +2,8 @@
 Install a vagrant with LEMP stack (Linux, nginx, Mysql, PHP).
 It also installs Node.js, Gulp and Grunt task runners.
 
+For more advanced WordPress Vagrant stuff you can take a look at [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV) or [Vagrantpress](http://vagrantpress.org/).
+
 ## Instructions
 When you have vagrant installed and working do the following:
 
