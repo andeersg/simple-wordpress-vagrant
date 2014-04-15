@@ -29,6 +29,9 @@ sudo service nginx restart
 
 echo "Finished with LEMP stack"
 
+sudo apt-get install ruby -y
+sudo gem install compass
+
 # Download WordPress.
 rm -rf /wordpress/*
 git clone https://github.com/WordPress/WordPress.git /wordpress
