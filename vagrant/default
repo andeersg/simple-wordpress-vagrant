@@ -7,6 +7,9 @@ server {
 
         # Make site accessible from http://localhost/
         server_name _;
+        
+        # Prevent nginx from caching css to much!
+        sendfile off;
 
         location / {
                 # First attempt to serve request as file, then
