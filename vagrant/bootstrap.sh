@@ -36,7 +36,7 @@ sudo gem install compass
 rm -rf /wordpress/*
 git clone https://github.com/WordPress/WordPress.git /wordpress
 cd /wordpress
-git checkout 3.8.1
+git checkout 3.9.1
 
 rm -rf .git
 
