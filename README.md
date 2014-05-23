@@ -9,7 +9,7 @@ When you have vagrant installed and working do the following:
 
 * cd to the vagrant folder and type ```vagrant up```.
 * Wait a long time while everything gets installed.
-* When everything is finished you have a LEMP stack with WordPress 3.8.1 and Grunt/Gulp installed.
+* When everything is finished you have a LEMP stack with WordPress 3.9.1 and Grunt/Gulp installed.
 
 ## Login details
 MySql-user: root, MySql-password: vagrant
@@ -18,7 +18,7 @@ Your site is now available at 10.0.1.42
 
 If you want to change the ip you access your site, change this line:
 ```config.vm.network "private_network", ip: "10.0.1.42"```
-in ```vagrant/Vagrantfile```
+in ```vagrant/Vagrantfile```.
 
 ## Everything that gets installed
 
