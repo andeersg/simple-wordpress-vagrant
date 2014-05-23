@@ -6,8 +6,8 @@ require 'yaml'
 vconfig = YAML::load_file("config.yml")
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "precise64"
-  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+  config.vm.box = vconfig['box']['name']
+  config.vm.box_url = vconfig['box']['url']
   config.vm.provision :shell, :path => "bootstrap.sh"
   config.vm.network "private_network", ip: vconfig['ip_address']
   config.vm.synced_folder "../wordpress", "/wordpress", owner: vconfig['user'], group: vconfig['group']

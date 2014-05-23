@@ -4,3 +4,7 @@ ip_address: '10.0.1.40'
 
 user: 'www-data'
 group: 'www-data'
+
+box:
+  url: "http://files.vagrantup.com/precise64.box"
+  name: "precise64"
