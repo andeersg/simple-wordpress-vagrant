@@ -1,0 +1,6 @@
+# config.yml
+
+ip_address: '10.0.1.40'
+
+user: 'www-data'
+group: 'www-data'
